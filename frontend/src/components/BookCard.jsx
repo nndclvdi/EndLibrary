@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { categoryLabels } from '../data/fallbackBooks.js';
-import koleksiLogo from '../assets/Endlib koleksi.png';
+import koleksiLogo from '../assets/Endlib Koleksi.png';
 
 export default function BookCard({ book, onEdit, onDelete }) {
   const stockStatus = book.stok > 0 ? `${book.stok} tersedia` : 'habis';
